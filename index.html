@@ -1,33 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TUGAS 4 Promnet</title>
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src=script.js></script>
-    </head>
-    <body>
-        <div class="task">
-            <h1>TUGAS 4 : Destinasi Wisata</h1>
-            <p>Saat musim liburan tiba, Tari ingin pergi berlibur ke Bali,
-                Lombok, dan Labuan Bajo. Sedangkan Sastri ingin pergi ke
-                Surabaya, Bali, dan Lombok.</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</head>
 
-            <p>Mereka ingin pergi berlibur bersama dan hanya ke tempat yang
-                mereka berdua sama-sama inginkan.</p>
+<body>
+  <!--ini untuk navbar-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">ACME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PRODUCT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PORTOFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <p>Buatlah sebuah function dengan javascript yang menghasilkan
-                destinasi wisata yang mereka berdua sama-sama inginkan</p>
+  <!--ini untuk breadcrumbs-->
+  <div class="container pt-4">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Help</li>
+        <li class="breadcrumb-item active" aria-current="page">Support</li>
+      </ol>
+    </nav>
+
+    <div class="row">
+      <div class="col-6">
+        <h1>KOTA HUJAN</h1>
+        <p>
+          Bogor adalah sebuah kota yang terletak di provinsi Jawa Barat, Indonesia. Bogor dikenal dengan julukan Kota Hujan,
+          karena memiliki curah hujan yang lumayan sangat tinggi. Kota Bogor terdiri atas 6 kecamatan yang dibagi lagi atas
+          sejumlah 68 kelurahan.
+          Pada masa Kolonial Belanda, Bogor dikenal dengan nama Buitenzorg yang berarti tanpa kecemasan atau aman tenteram.
+          Dijuluki sebagai Kota Hujan. Kota Bogor memiliki berbagai destinasi yang menyenangkan untuk berbagai kalangan
+          untuk dikunjungi. Alamnya menakjubkan berpadu dengan keramah tamahan khas masyarakat Kota Bogor. Jangan lupa untuk
+          memanjakan lidah Anda dengan berbagai aneka hidangan wisata kuliner ketika mengunjungi Kota Bogor.
+          Kota Bogor berhasil memadukan modernitas dan tradisional kesundaan dengan baik.
+        </p>
+      </div>
+
+    <div class="col-6">
+      <img src="Img/kujang-malam.webp" style="width: 100%;">
+    </div>
+  </div>
+
+  <div class="container pt-4">
+    <div class="row row-cols-lg-5 text-center">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/kujang-malam.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
         </div>
-
-        <div class="answer">
-            <button type="button" onclick="goTo();" value="button"><span></span>Klik Disini ges</button>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/kujang-malam.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
         </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/kujang-malam.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/kujang-malam.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col--md-6">
+        <div class="card">
+          <img src="img/kujang-malam.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Title</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <footer>
-            <p>Created by <a href="https://www.instagram.com/thryna_a/">Atep cantieq</a> - 2102208</p>
-        </footer>
-    </body>
+  <div class="container pt-4">
+  <div class="row">
+      <div class="col-6">
+        <h1>KOTA HUJAN</h1>
+        <p>
+          Bogor adalah sebuah kota yang terletak di provinsi Jawa Barat, Indonesia. Bogor dikenal dengan julukan Kota Hujan,
+          karena memiliki curah hujan yang lumayan sangat tinggi. Kota Bogor terdiri atas 6 kecamatan yang dibagi lagi atas
+          sejumlah 68 kelurahan.
+          Pada masa Kolonial Belanda, Bogor dikenal dengan nama Buitenzorg yang berarti tanpa kecemasan atau aman tenteram.
+          Dijuluki sebagai Kota Hujan. Kota Bogor memiliki berbagai destinasi yang menyenangkan untuk berbagai kalangan
+          untuk dikunjungi. Alamnya menakjubkan berpadu dengan keramah tamahan khas masyarakat Kota Bogor. Jangan lupa untuk
+          memanjakan lidah Anda dengan berbagai aneka hidangan wisata kuliner ketika mengunjungi Kota Bogor.
+          Kota Bogor berhasil memadukan modernitas dan tradisional kesundaan dengan baik.
+        </p>
+      </div>
+
+    <div class="col-6">
+      <img src="Img/kujang-malam.webp" style="width: 100%;">
+    </div>
+  </div>
+  </div>
+
+  <!--ini footer-->
+  <footer>
+    <p>
+      Dibuat oleh <a href="https://intagram.com/thryna_a">Anisa Theryana Putri</a> 2102208
+    </p>
+  </footer>
+</body>
+
 </html>
